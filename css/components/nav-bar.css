@@ -1,4 +1,8 @@
 nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
     background-color: #f9f9fa;
     padding: 30px 70px;
     border-top: 1px solid rgba(121, 121, 121, 0.3);
