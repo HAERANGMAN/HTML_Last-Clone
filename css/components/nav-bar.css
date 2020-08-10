@@ -15,5 +15,31 @@ nav{
 
 .nav__link{
     color: #2e363e;
-    text-decoration: none;
+    position: relative;
+}
+
+.nav__notification{
+    background-color: rgb(212, 42, 0);
+    color: white;
+    font-weight: 600;
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+
+.nav__more{
+    background-color: rgb(212, 42, 0);
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    border-radius: 4px;
+    position: absolute;
+    right: -10px;
+    bottom: 28px;
 }
