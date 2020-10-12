@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats | Kakao Talk</title>
+    <title>Settings | Kakao Talk</title>
     <script
       src="https://kit.fontawesome.com/c5b27e70b0.js"
       crossorigin="anonymous"
@@ -25,39 +25,41 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html"><i class="fas fa-angle-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1>Settings</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-search fa-lg"></i>
       </div>
     </header>
-    <main class="main-screen">
-      <a href="chat.html">
-        <div class="user-component">
-          <div class="user-component__column">
-            <div class="main_avatar">
-              <img
-                class="user-component__avatar user-component__avatar--xl"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRNTTjJxaidF-7AsHB9s4VU4QhCq-yJPCMlWQ&usqp=CAU"
-                alt=""
-              />
-            </div>
-            <div class="user-component__text-box">
-              <div class="user-component__text">
-                <h4 class="user-component__title topofdonald">Donald Trump</h4>
-                <h6 class="user-component__subtitle">Read this Kakao!!</h6>
-              </div>
-              <div class="user-component__notice">
-                <span class="user-component__notice__time">20:13</span>
-                <div class="user-componant__notice__new">1</div>
-              </div>
-            </div>
+    <main class="main-screenn">
+      <ul class="settings-list">
+        <li class="settings-setting">
+          <div class="settings-setting-column">
+            <i class="fas fa-bullhorn"></i>
+            <span>Notices</span>
           </div>
-        </div>
-      </a>
+          <div class="settings-setting-column"></div>
+        </li>
+        <li class="settings-setting">
+          <div class="settings-setting-column">
+            <i class="fas fa-flask"></i>
+            <span>Kakao Lab</span>
+          </div>
+          <div class="settings-setting-column"></div>
+        </li>
+        <li class="settings-setting">
+          <div class="settings-setting-column">
+            <i class="fas fa-info-circle"></i>
+            <span>Version</span>
+          </div>
+          <div class="settings-setting-column">Latest Version</div>
+        </li>
+      </ul>
     </main>
     <nav class="nav">
       <ul class="nav__list">
@@ -69,7 +71,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification">1</span>
-            <i class="fas fa-comment fa-2x"></i>
+            <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">

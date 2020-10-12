@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats | Kakao Talk</title>
+    <title>More | Kakao Talk</title>
     <script
       src="https://kit.fontawesome.com/c5b27e70b0.js"
       crossorigin="anonymous"
@@ -26,16 +26,17 @@
       </div>
     </div>
     <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span
+          ><a href="setting.html"><i class="fas fa-cog fa-lg"></i></a
+        ></span>
       </div>
     </header>
     <main class="main-screen">
-      <a href="chat.html">
+      <div class="user-component__column">
         <div class="user-component">
           <div class="user-component__column">
             <div class="main_avatar">
@@ -48,16 +49,62 @@
             <div class="user-component__text-box">
               <div class="user-component__text">
                 <h4 class="user-component__title topofdonald">Donald Trump</h4>
-                <h6 class="user-component__subtitle">Read this Kakao!!</h6>
+                <h6 class="user-component__subtitle">+1 693-238-3942</h6>
               </div>
               <div class="user-component__notice">
-                <span class="user-component__notice__time">20:13</span>
-                <div class="user-componant__notice__new">1</div>
+                <i class="far fa-comment-alt fa-2x"></i>
               </div>
             </div>
           </div>
         </div>
-      </a>
+      </div>
+      <div class="mainn">
+        <div class="icon-row">
+          <div class="icon-row__icon">
+            <i class="far fa-calendar"></i>
+            <span>Calendar</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="far fa-smile-beam"></i>
+            <span>Emoticons</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fas fa-paint-roller"></i>
+            <span>Themes</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="far fa-user"></i>
+            <span>Account</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fas fa-flag-usa"></i>
+            <span>USA</span>
+          </div>
+        </div>
+        <div class="more-suggestions">
+          <h4 class="more-suggestions__title">Suggestion</h4>
+          <div class="more-suggestions__icons">
+            <div class="more-suggestions__icon">
+              <div class="more-suggestions__icon-image">
+                <i class="fas fa-quote-right"></i>
+              </div>
+              <span class="more-suggestions__icons-text">Kakao Story</span>
+            </div>
+            <div class="more-suggestions__icon">
+              <div class="more-suggestions__icon-image">
+                <i class="fas fa-gamepad"></i>
+              </div>
+              <span class="more-suggestions__icons-text">Kakao Game</span>
+            </div>
+            <div class="more-suggestions__icon">
+              <div class="more-suggestions__icon-image">
+                <i class="fab fa-internet-explorer"></i>
+              </div>
+              <span class="more-suggestions__icons-text">Internet</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <nav class="nav">
       <ul class="nav__list">
@@ -69,7 +116,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification">1</span>
-            <i class="fas fa-comment fa-2x"></i>
+            <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">

@@ -11,3 +11,9 @@
   align-items: center;
   font-size: 12px;
 }
+
+.user-componant__notice__new {
+  width: 26px;
+  height: 26px;
+  border-radius: 13px;
+}
